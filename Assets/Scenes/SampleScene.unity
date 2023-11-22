@@ -1567,7 +1567,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 516e6f11e8de6624eb6be4bac8c14555, type: 2}
+  - {fileID: 2100000, guid: 1d04c9e6a3c3e77418dc58fe6fc7070c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4647,7 +4647,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0.123}
-  m_AnchoredPosition: {x: 0, y: -0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 101.2071}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &789432706
@@ -4704,7 +4704,8 @@ MonoBehaviour:
   lines:
   - Buenas,A continuacion nos adentraremos en un juego basado en un parkour.
   - El objetivo del juego es saltar  por obstaculos hasta llegar a la meta
-  - 
+  - "Tambi\xE9n tendremos habra un marcador que nso indicara en cunato tiempo nos
+    pasamos el parkour. "
   textSpeed: 0.1
 --- !u!1 &801102116
 GameObject:
@@ -6629,15 +6630,15 @@ PrefabInstance:
     - target: {fileID: -7202464317774104332, guid: fdf19a29d36c0474a940abc2047cec14, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 516e6f11e8de6624eb6be4bac8c14555, type: 2}
+      objectReference: {fileID: 2100000, guid: 9500475d71e67e84db470fbbce1befa7, type: 2}
     - target: {fileID: -3477821731311062464, guid: fdf19a29d36c0474a940abc2047cec14, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 516e6f11e8de6624eb6be4bac8c14555, type: 2}
+      objectReference: {fileID: 2100000, guid: 9500475d71e67e84db470fbbce1befa7, type: 2}
     - target: {fileID: -1592289475483123607, guid: fdf19a29d36c0474a940abc2047cec14, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 516e6f11e8de6624eb6be4bac8c14555, type: 2}
+      objectReference: {fileID: 2100000, guid: 9500475d71e67e84db470fbbce1befa7, type: 2}
     - target: {fileID: 919132149155446097, guid: fdf19a29d36c0474a940abc2047cec14, type: 3}
       propertyPath: m_Name
       value: laberinto
@@ -6645,23 +6646,23 @@ PrefabInstance:
     - target: {fileID: 1603246306389932429, guid: fdf19a29d36c0474a940abc2047cec14, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 516e6f11e8de6624eb6be4bac8c14555, type: 2}
+      objectReference: {fileID: 2100000, guid: 9500475d71e67e84db470fbbce1befa7, type: 2}
     - target: {fileID: 3816654056258493912, guid: fdf19a29d36c0474a940abc2047cec14, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 516e6f11e8de6624eb6be4bac8c14555, type: 2}
+      objectReference: {fileID: 2100000, guid: 9500475d71e67e84db470fbbce1befa7, type: 2}
     - target: {fileID: 4407187375235809858, guid: fdf19a29d36c0474a940abc2047cec14, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 516e6f11e8de6624eb6be4bac8c14555, type: 2}
+      objectReference: {fileID: 2100000, guid: 9500475d71e67e84db470fbbce1befa7, type: 2}
     - target: {fileID: 8424073627695423409, guid: fdf19a29d36c0474a940abc2047cec14, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 516e6f11e8de6624eb6be4bac8c14555, type: 2}
+      objectReference: {fileID: 2100000, guid: 9500475d71e67e84db470fbbce1befa7, type: 2}
     - target: {fileID: 8736054615233459941, guid: fdf19a29d36c0474a940abc2047cec14, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 516e6f11e8de6624eb6be4bac8c14555, type: 2}
+      objectReference: {fileID: 2100000, guid: 9500475d71e67e84db470fbbce1befa7, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9486,7 +9487,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0.99625, y: 0.9774924}
-  m_AnchoredPosition: {x: -1.0209961, y: 0.2119751}
+  m_AnchoredPosition: {x: -1.0209961, y: 0}
   m_SizeDelta: {x: 2.040001, y: 1.5769997}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1436941014
@@ -10733,7 +10734,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 327.707, y: 210.2936}
+  m_AnchoredPosition: {x: 327.707, y: 210.1}
   m_SizeDelta: {x: -655.414, y: -420.5872}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1742819260
