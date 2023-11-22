@@ -4704,8 +4704,8 @@ MonoBehaviour:
   lines:
   - Buenas,A continuacion nos adentraremos en un juego basado en un parkour.
   - El objetivo del juego es saltar  por obstaculos hasta llegar a la meta
-  - "Tambi\xE9n tendremos habra un marcador que nso indicara en cunato tiempo nos
-    pasamos el parkour. "
+  - "Tambi\xE9n tendremos un marcador que nos indicara en cuanto tiempo nos pasamos
+    el parkour. "
   textSpeed: 0.1
 --- !u!1 &801102116
 GameObject:
